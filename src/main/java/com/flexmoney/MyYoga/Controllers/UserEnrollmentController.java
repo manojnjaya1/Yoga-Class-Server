@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 // UserEnrollmentController.java
 @RestController
 @RequestMapping("/enroll")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://yogaclass-client.vercel.app/")
 public class UserEnrollmentController {
 
     @Autowired

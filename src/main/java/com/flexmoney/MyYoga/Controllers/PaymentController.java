@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/payments")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://yogaclass-client.vercel.app")
 public class PaymentController {
 
     private final PaymentService paymentService;
