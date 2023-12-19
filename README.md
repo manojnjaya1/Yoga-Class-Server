@@ -23,6 +23,10 @@
 
 ## Entity
 
+![ER Diagram]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/manojnjaya1/Yoga-Class-Server/blob/master/ER%20diagram.png))
+
+
+
 Used Mysql database 
 
 A table wit name user_enrollment stores all the user details 
