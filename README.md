@@ -56,6 +56,29 @@ A table wit name user_enrollment stores all the user details
   [Link to server] (https://flex-money-yogaclass.onrender.com)
 
 
+## Steps to run this in local system
+
+  1)Clone the repositry to the local system
+  
+  2)Update maven for dependencies
+
+  3) Run as a springboot application
+
+## Work Of
+
+Manoj A N
+
+
+
+
+
+
+
+
+
+  
+
+
 
 
 
