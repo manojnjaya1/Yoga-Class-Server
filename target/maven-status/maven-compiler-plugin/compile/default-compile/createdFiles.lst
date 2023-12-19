@@ -1,5 +1,7 @@
 com\flexmoney\MyYoga\Models\PaymentStatus.class
+com\flexmoney\MyYoga\Config\CorsConfig$1.class
 com\flexmoney\MyYoga\Models\UserEnrollment.class
+com\flexmoney\MyYoga\Config\CorsConfig.class
 com\flexmoney\MyYoga\Repository\UserEnrollmentRepository.class
 com\flexmoney\MyYoga\Service\PaymentService.class
 com\flexmoney\MyYoga\Service\UserEnrollmentService.class

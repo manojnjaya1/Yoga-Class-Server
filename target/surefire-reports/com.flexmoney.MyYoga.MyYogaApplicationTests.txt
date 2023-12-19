@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.flexmoney.MyYoga.MyYogaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.11 s -- in com.flexmoney.MyYoga.MyYogaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.44 s -- in com.flexmoney.MyYoga.MyYogaApplicationTests
