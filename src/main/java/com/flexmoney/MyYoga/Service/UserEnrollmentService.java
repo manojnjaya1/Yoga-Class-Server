@@ -4,9 +4,7 @@ import com.flexmoney.MyYoga.Models.UserEnrollment;
 import com.flexmoney.MyYoga.Repository.UserEnrollmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -37,6 +35,8 @@ public class UserEnrollmentService {
             throw new IllegalArgumentException("Invalid batch selected.");
         }
     }
+
+//    Method to get a user using Id
     public UserEnrollment getUserById(Long userId) {
         return userEnrollmentRepository.findById(userId).orElse(null);
     }

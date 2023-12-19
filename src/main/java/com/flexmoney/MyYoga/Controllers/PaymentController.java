@@ -21,6 +21,8 @@ public class PaymentController {
         this.paymentService = paymentService;
     }
 
+
+//    handling payment of a user
     @PostMapping("/{userId}")
     public ResponseEntity<PaymentResponse> processPayment(@PathVariable Long userId) {
         // Call the service to process the payment

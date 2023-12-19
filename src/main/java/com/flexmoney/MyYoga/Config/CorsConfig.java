@@ -6,20 +6,12 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
+//Handling CORS configuration
 @Configuration
 @EnableWebMvc
 public class  CorsConfig implements WebMvcConfigurer {
 
-//    @Override
-//    public void addCorsMappings(CorsRegistry registry) {
-//        registry.addMapping("/**")
-//                .allowedOrigins("https://yogaclass-client.vercel.app")
-//                .allowedMethods("GET", "POST", "PUT", "DELETE")
-//                .allowedHeaders("*")
-//                .exposedHeaders("*")
-//                .allowCredentials(true)
-//                .maxAge(3600);
-//    }
 @Override
 public void addCorsMappings(CorsRegistry registry) {
     registry.addMapping("/**")
